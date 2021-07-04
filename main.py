@@ -7,10 +7,10 @@ from typing import List
 
 # from secrets import consumer_key, consumer_secret
 
-consumer_key = "JlugTyoPRwHCAo9RL8oW4rvef"
-consumer_secret = "SV1DkRNC9fT1WqBHyoZfH9GuveGk6t8n7W5MRUyxaAFjjBOJqQ"
-access_token = "1411541778268934144-0vTefLgDqo52tXvJUj2EyOqSYVxIBG"
-access_secret = "APp55i1EicgjwCYKl1yrjnE3EKP5Vk0BW0BOQuG0p6kK6"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_secret = ""
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
