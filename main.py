@@ -57,7 +57,9 @@ if __name__ == "__main__":
     first_score = get_avg_sentiment_score(first_thing)
     second_score = get_avg_sentiment_score(second_thing)
 
-    if (first_score > second_score):
+    if first_score == second_score:
+        print("bez znaczenia")
+    elif first_score > second_score:
         print(f"Lepiej jak zrobisz {first_thing} zamiast {second_thing}")
     else:
         print(f"Lepiej jak zrobisz {second_thing} zamiast {first_thing}")
