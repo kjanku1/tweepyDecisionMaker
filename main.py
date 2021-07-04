@@ -5,12 +5,7 @@ import preprocessor as p
 import statistics
 from typing import List
 
-# from secrets import consumer_key, consumer_secret
-
-consumer_key = ""
-consumer_secret = ""
-access_token = ""
-access_secret = ""
+from secrets import consumer_key, consumer_secret, access_token, access_secret
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
